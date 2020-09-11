@@ -1707,12 +1707,14 @@ textarea::placeholder {
 }
 
 @media (max-width: 1024px) {
-  .navigation .menu .translate{
+  .navigation .menu .translate {
     display: none;
   }
-  .header .btn .button{
+
+  .header .btn .button {
     top: 50%;
   }
+
   .header .navigation {
     /* padding: 5px 0 0 0; */
   }
@@ -1796,16 +1798,18 @@ textarea::placeholder {
     width: 100%;
   }
 
-  #section4 .container ul{
+  #section4 .container ul {
     display: block;
     text-align: center;
   }
-  #section4 .container ul li{
+
+  #section4 .container ul li {
     display: inline-block;
     width: 700px;
     margin-bottom: 20px;
     margin-left: -58px;
   }
+
   #section2 .container .body .center {
     /* margin-left: 20%; */
 
@@ -1850,15 +1854,18 @@ textarea::placeholder {
 }
 
 @media (max-width: 768px) {
-  #section2 .container .body .center{
+  #section2 .container .body .center {
     margin-left: 0;
   }
-  .header .t-banner .big{
+
+  .header .t-banner .big {
     margin-left: 20%;
   }
-  .navigation .menu .translate{
+
+  .navigation .menu .translate {
     display: none;
   }
+
   #section4 .body .top .desc {
     padding: 0;
   }
@@ -2048,32 +2055,40 @@ textarea::placeholder {
     padding: 10px 100px;
   }
 }
+
 @media (max-width: 540px) {
-  .header .t-banner .big{
+  .header .t-banner .big {
     font-size: 14px;
   }
-  #section4 .container .body .center{
+
+  #section4 .container .body .center {
     margin-left: -278px;
   }
-  #section4 .container ul{
+
+  #section4 .container ul {
     display: block;
   }
-  #section4 .container ul li{
+
+  #section4 .container ul li {
     display: block;
     width: 510px;
     margin-left: 0;
   }
-  .header .navigation .menu .list li .i-bar{
+
+  .header .navigation .menu .list li .i-bar {
     margin-right: 10px;
   }
-  .header .btn{
+
+  .header .btn {
     left: 15%;
   }
-  .header .navigation .menu .list li .smooth.mobile{
+
+  .header .navigation .menu .list li .smooth.mobile {
     display: block;
     width: 25px;
   }
-  .header .navigation .menu .list li:nth-of-type(1) img{
+
+  .header .navigation .menu .list li:nth-of-type(1) img {
     width: 30px;
     margin-left: 5px;
   }
@@ -2356,7 +2371,7 @@ textarea::placeholder {
 
   #section4 .container ul li {
     width: 340px;
-    margin-left: 5px;
+    /* margin-left: 5px; */
   }
 
   #section4 .container ul {
@@ -2439,9 +2454,9 @@ textarea::placeholder {
   }
 }
 
-@media (max-width:360){
-  #section4 .container ul li{
-    margin-left: -5px !important;
+@media (max-width:360px) {
+  #section4 .container ul li {
+    margin-left: -3px !important;
   }
 }
 
