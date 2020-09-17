@@ -387,6 +387,7 @@ textarea::placeholder {
   position: absolute;
   top: 65%;
   left: 20%;
+  z-index: 999;
 }
 
 .header .btn .button {
