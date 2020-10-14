@@ -1855,6 +1855,10 @@ textarea::placeholder {
 }
 
 @media (max-width: 768px) {
+  #contactUs {
+    padding: 45px 0;
+  }
+
   #section2 .container .body .center {
     margin-left: 0;
   }
@@ -2338,6 +2342,24 @@ textarea::placeholder {
   .footer .body p {
     font-size: 14px;
   }
+}
+
+#contactUs {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#contactUs .btn {
+  border-radius: 0px !important;
+  background: #8fadc7;
+  margin-top: 20px;
+}
+
+#contactUs .heading h2 {
+  color: #fff;
+}
+
+#contactUs .text-center {
+  width: 100%;
 }
 
 @media (max-width: 375px) {
