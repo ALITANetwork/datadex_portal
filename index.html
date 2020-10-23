@@ -341,9 +341,8 @@
                 <li><a href="#blog">HotItems</a></li>
             </ul>
         </div>
-        <div class="chat">
-            <div class="icon chat-btn"><a href="mailto:contact@alita.global"><img src="images/start-chat.png"
-                        alt=""></a></div>
+        <div class="chat" id="goto">
+            <div class="icon chat-btn"><a href="mailto:contact@alita.global"><img src="images/top.jpg" alt=""></a></div>
         </div>
     </div>
 
@@ -563,6 +562,18 @@
                 });
             }
 
+            window.onscroll = function () {
+                let st = document.documentElement.scrollTop, //scrollTop内容卷曲的高度
+                    ch = document.documentElement.clientHeight; //可视窗口的高度
+                if (st > ch) {
+                    goto.style.display = 'block';
+                } else {
+                    goto.style.display = 'none';
+                }
+            }
+            goto.onclick = function () {
+                document.documentElement.scrollTop = 0; //点击按钮回到顶部
+            }
         })()
     </script>
 </body>

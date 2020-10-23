@@ -1527,6 +1527,7 @@ textarea::placeholder {
 
 .footer {
   background: #111111;
+  margin-top: 2.5rem !important;
 }
 
 .footer .body {
@@ -1538,10 +1539,14 @@ textarea::placeholder {
   color: white;
 }
 
+#goto img {
+  width: 40px;
+}
+
 .chat {
   position: absolute;
   right: 50px;
-  bottom: 130px;
+  bottom: 112px;
   z-index: 4;
   width: 350px;
 }
