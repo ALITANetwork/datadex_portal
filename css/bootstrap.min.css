@@ -1396,6 +1396,7 @@ pre code {
     }
 
     .col-lg-7 {
+        margin-top: -47px;
         -ms-flex: 0 0 58.333333%;
         flex: 0 0 58.333333%;
         max-width: 58.333333%
