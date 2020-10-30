@@ -245,10 +245,12 @@ textarea::placeholder {
 .header .navigation .language:hover .changeLanguage {
   height: 30px;
   line-height: 30px;
+  cursor: pointer;
 }
 
 .header .navigation .language:hover .changeLanguage a {
   display: block;
+  cursor: pointer;
 }
 
 .header .navigation .angle {
@@ -366,7 +368,6 @@ textarea::placeholder {
 
 .navigation .menu .list li {
   position: relative;
-
 }
 
 .navigation .menu .list li .showJoin i {
