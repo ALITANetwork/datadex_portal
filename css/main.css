@@ -218,6 +218,62 @@ textarea::placeholder {
   z-index: 3;
 }
 
+.header .navigation .language {
+  display: inline-block;
+  position: relative;
+}
+
+.header .navigation .language .changeLanguage {
+  position: absolute;
+  right: -25px;
+  width: 100px;
+  height: 0px;
+  line-height: 0px;
+  background-color: #fff;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  transition: height 1s;
+  color: #000;
+}
+
+.header .navigation .language .changeLanguage a {
+  display: none;
+  color: #000;
+  transition: display .1s;
+}
+
+.header .navigation .language:hover .changeLanguage {
+  height: 30px;
+  line-height: 30px;
+}
+
+.header .navigation .language:hover .changeLanguage a {
+  display: block;
+}
+
+.header .navigation .angle {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-top: 5px solid #fff;
+  border-bottom: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  margin-top: 10px;
+}
+
+.header .navigation .angle {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-top: 5px solid #fff;
+  border-bottom: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  margin-top: 10px;
+}
+
+
 .header .navigation .logo {
   margin-bottom: 30px;
   -webkit-transition: all .4s ease-in-out;
